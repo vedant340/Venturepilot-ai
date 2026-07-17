@@ -93,7 +93,7 @@ export default function Landing() {
         </div>
       </section>
 
-      <section className="screenshot">
+      {/* <section className="screenshot">
         <h2 className="section-title">Inside the cockpit</h2>
         <div className="screenshot-frame glass">
           <div className="screenshot-fake-sidebar" />
@@ -103,7 +103,7 @@ export default function Landing() {
             <div className="skel-line" style={{ width: '75%' }} />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="faq" id="faq">
         <h2 className="section-title">Questions before takeoff</h2>
