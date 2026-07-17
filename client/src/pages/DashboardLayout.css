@@ -1,0 +1,13 @@
+.dash-shell {
+  display: flex;
+  min-height: 100vh;
+}
+.dash-main {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
+}
+.module-body {
+  padding: 28px 36px 60px;
+  max-width: 900px;
+}

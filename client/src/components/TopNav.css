@@ -1,0 +1,22 @@
+.topnav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 28px 36px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.topnav-title { font-size: 22px; font-weight: 600; }
+.topnav-subtitle { margin-top: 4px; font-size: 13px; color: var(--text-muted); }
+.theme-toggle { padding: 8px; border-radius: 50%; }
+
+:root.light-theme {
+  --bg: #f6f5f2;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-glass: rgba(255, 255, 255, 0.7);
+  --border: rgba(10, 11, 16, 0.08);
+  --border-strong: rgba(10, 11, 16, 0.16);
+  --text: #14161f;
+  --text-muted: #565a68;
+  --text-faint: #8b8d98;
+}

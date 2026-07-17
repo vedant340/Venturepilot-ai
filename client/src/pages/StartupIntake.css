@@ -1,0 +1,30 @@
+.intake-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 560px;
+}
+.intake-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.intake-field input,
+.intake-field textarea {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  padding: 11px 13px;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 14px;
+  resize: vertical;
+}
+.intake-field input:focus,
+.intake-field textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+.intake-form .btn { align-self: flex-start; margin-top: 6px; }
